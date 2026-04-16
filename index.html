@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars Characters</title>
+
+  <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./assets/millennium-falcon.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="./index.html"><img class="logo-img" src="./assets/star-wars-logo.png" alt="logo Star-Wars"></a>
+      <span class="logo-text">Characters</span>
+    </div>
+
+    <div class="social-media">
+      <a href="https://www.instagram.com/henrilucasss/?hl=pt-br" target="_blank"><img src="./assets/instagram-brands-solid.svg" alt="Instagram" srcset=""></a>
+      <a href="https://github.com/LucasHenrique-d" target="_blank"><img src="./assets/github-brands-solid.svg" alt="GitHub" srcset=""></a>
+      <a href="https://www.linkedin.com/in/lucas-h-42a26ab1/" target="_blank"><img src="./assets/linkedin-brands-solid.svg" alt="LinkedIn" srcset=""></a>
+    </div>
+  </header>
+
+  <div class="main-container">
+
+    <h2>Conheca todos os personagens de Star Wars em um só lugar</h2>
+
+    <div class="main-content" id="main-content"></div>
+
+    <div class="modal" id="modal" onclick="hideModal()">
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+
+    <div class="btn">
+      <button id="back-btn" disabled>Anterior</button>
+      <button id="next-btn" disabled>Próxima</button>
+    </div>
+
+  </div>
+
+  <footer>
+    <p class="footer-logo">Star Wars Characters</p>
+    <p class="copy">Desenvolvido por &copy; Lucas Henrique</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
